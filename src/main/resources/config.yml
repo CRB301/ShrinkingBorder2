@@ -1,0 +1,18 @@
+worldName: world
+
+border:
+  centerX: 0.0
+  centerZ: 0.0
+  initialSize: 500.0
+  finalSize: 50.0
+  shrinkIntervalTicks: 6000        # Time between each shrink (in ticks, 20 ticks = 1 second)
+  shrinkAmountPerStep: 10.0        # How much the border shrinks each interval
+  gracePeriodTicks: 1200           # Delay before shrinking starts after "start" is run
+
+messages:
+  enabled: true                    # Whether to broadcast shrink messages
+
+teleportOutsidePlayersInside: true  # Whether to teleport players back inside if they go out of bounds
+
+sounds:
+  shrinkSound: entity.ender_dragon.growl  # The sound to play when the border shrinks

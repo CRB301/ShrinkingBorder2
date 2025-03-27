@@ -1,0 +1,12 @@
+name: ShrinkingBorder
+main: me.yourname.shrinkingborder.ShrinkingBorder
+version: 1.0
+api-version: 1.13
+commands:
+  shrinkborder:
+    description: Control the world border shrink process.
+    usage: /<command> <start|stop|pause|resume|status|set>
+permissions:
+  shrinkingborder.admin:
+    description: Allows control of the ShrinkingBorder plugin.
+    default: op
